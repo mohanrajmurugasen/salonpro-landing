@@ -1,0 +1,47 @@
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top left, #852185, #7e57c2);
+}
+
+.contain {
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+
+.head {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.bottom {
+  font-size: 22px;
+}
+
+.sites {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  justify-content: center;
+  position: fixed;
+  top: 5px;
+  right: 15px;
+}
+
+.sites div {
+  cursor: pointer;
+  background-color: #852185;
+  padding: 8px 15px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.sites div:hover {
+  background-color: white;
+  color: #852185;
+}
